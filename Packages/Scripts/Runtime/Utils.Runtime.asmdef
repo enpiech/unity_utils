@@ -1,6 +1,6 @@
 {
   "name": "Utils.Runtime",
-  "rootNamespace": "Enpiech",
+  "rootNamespace": "Enpiech.Utils",
   "references": [
     "Unity.Localization",
     "NaughtyAttributes.Core",

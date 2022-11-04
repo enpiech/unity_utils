@@ -1,10 +1,13 @@
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 
-public sealed class SelfCleanup : MonoBehaviour
+namespace Enpiech.Utils.Runtime
 {
-    private void OnDestroy()
+    public sealed class SelfCleanup : MonoBehaviour
     {
-        Addressables.ReleaseInstance(gameObject);
+        private void OnDestroy()
+        {
+            Addressables.ReleaseInstance(gameObject);
+        }
     }
 }

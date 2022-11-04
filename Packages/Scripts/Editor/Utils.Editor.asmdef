@@ -1,10 +1,10 @@
 {
   "name": "Utils.Editor",
-  "rootNamespace": "",
+  "rootNamespace": "Enpiech.Utils",
   "references": [
     "UnityAtoms.UnityAtomsCore.Runtime",
     "UnityAtoms.UnityAtomsCore.Editor",
-    "Utils",
+    "Utils.Runtime",
     "Unity.Addressables"
   ],
   "includePlatforms": [

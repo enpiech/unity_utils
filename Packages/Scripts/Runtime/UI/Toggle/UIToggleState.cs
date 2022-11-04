@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.Localization;
 
-namespace UI.Toggle
+namespace Enpiech.Utils.Runtime.UI.Toggle
 {
     [CreateAssetMenu(fileName = "STATE_UIToggle", menuName = "UI/Toggle")]
     public sealed class UIToggleState : ScriptableObject

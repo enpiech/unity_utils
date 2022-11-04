@@ -2,7 +2,7 @@ using NaughtyAttributes;
 using TMPro;
 using UnityEngine;
 
-namespace CricketsWorld.Shared
+namespace Enpiech.Utils.Runtime.UI
 {
     public sealed class GameVersion : MonoBehaviour
     {

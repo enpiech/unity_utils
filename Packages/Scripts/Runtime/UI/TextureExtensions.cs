@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UI;
 
-namespace UI
+namespace Enpiech.Utils.Runtime.UI
 {
     public static class TextureExtensions
     {

@@ -4,7 +4,7 @@ Script Source: https://coffeebraingames.wordpress.com/2014/10/20/a-generic-durat
 
 using UnityEngine;
 
-namespace DurationTimer
+namespace Enpiech.Utils.Runtime.DurationTimer
 {
     /**
  * Generic class for implementing timers (specified in seconds)

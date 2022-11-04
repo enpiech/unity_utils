@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.Localization.Components;
 using UnityEngine.UI;
 
-namespace UI.Toggle
+namespace Enpiech.Utils.Runtime.UI.Toggle
 {
     public sealed class UIToggle : MonoBehaviour
     {

@@ -4,7 +4,7 @@ Script Source: https://coffeebraingames.wordpress.com/2013/12/18/a-generic-float
 
 using UnityEngine;
 
-namespace DurationTimer
+namespace Enpiech.Utils.Runtime.DurationTimer
 {
     /**
      * Class for comparing floating point values

@@ -2,7 +2,7 @@
 using Cysharp.Threading.Tasks;
 using UnityEngine.Events;
 
-namespace Helper
+namespace Enpiech.Utils.Runtime.Helper
 {
     public static class UniTaskHelper
     {

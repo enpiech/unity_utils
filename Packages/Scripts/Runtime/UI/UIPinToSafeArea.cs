@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace UI
+namespace Enpiech.Utils.Runtime.UI
 {
     /// <summary>
     ///     Resizes a UI element with a RectTransform to respect the safe areas of the current device.

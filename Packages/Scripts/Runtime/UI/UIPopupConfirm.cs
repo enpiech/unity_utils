@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-namespace CricketsWorld.Shared.UI
+namespace Enpiech.Utils.Runtime.UI
 {
     public sealed class UIPopupConfirm : MonoBehaviour
     {
