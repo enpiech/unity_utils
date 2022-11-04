@@ -6,7 +6,8 @@
     "NaughtyAttributes.Core",
     "Unity.Addressables",
     "UniTask",
-    "Unity.TextMeshPro"
+    "Unity.TextMeshPro",
+    "Unity.ResourceManager"
   ],
   "includePlatforms": [],
   "excludePlatforms": [],
