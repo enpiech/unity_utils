@@ -1,0 +1,20 @@
+{
+  "name": "Utils.Runtime",
+  "rootNamespace": "Enpiech",
+  "references": [
+    "Unity.Localization",
+    "NaughtyAttributes.Core",
+    "Unity.Addressables",
+    "UniTask",
+    "Unity.TextMeshPro"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
