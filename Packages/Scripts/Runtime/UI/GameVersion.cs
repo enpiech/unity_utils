@@ -6,6 +6,11 @@ namespace Enpiech.Utils.Runtime.UI
 {
     public sealed class GameVersion : MonoBehaviour
     {
+        [Header("Config")]
+        [SerializeField]
+        private string _prefix = "GAME VERSION: ";
+
+        [Header("References")]
         [SerializeField]
         private TextMeshProUGUI _versionNumberText = default!;
 
@@ -18,9 +23,9 @@ namespace Enpiech.Utils.Runtime.UI
         private void UpdateGameVersionText()
         {
 #if PROD
-            _versionNumberText.text = $"GAMEVERSION: {Application.version}";
+            _versionNumberText.text = $"{_prefix}{Application.version}";
 #else
-            _versionNumberText.text = $"GAMEVERSION: {Application.version}_dev";
+            _versionNumberText.text = $"{_prefix}{Application.version}_dev";
 #endif
         }
     }
