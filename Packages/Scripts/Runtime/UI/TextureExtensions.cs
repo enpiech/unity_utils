@@ -29,15 +29,21 @@ namespace Enpiech.Utils.Runtime.UI
 
         public static void SetRemoteImage(Image image, in string url)
         {
-            GetRemoteTexture(url).ContinueWith(texture2D =>
-            {
-                if (texture2D == null)
+            SetRemoteImageAsync(image, url).Forget();
+        }
+
+        public static UniTask SetRemoteImageAsync(Image image, in string url)
+        {
+            return GetRemoteTexture(url)
+                .ContinueWith(texture2D =>
                 {
-                    return;
-                }
-                var sprite = Sprite.Create(texture2D, new Rect(0, 0, texture2D.width, texture2D.height), new Vector2(.5f, .5f));
-                image.sprite = sprite;
-            }).Forget();
+                    if (texture2D == null)
+                    {
+                        return;
+                    }
+                    var sprite = Sprite.Create(texture2D, new Rect(0, 0, texture2D.width, texture2D.height), new Vector2(.5f, .5f));
+                    image.sprite = sprite;
+                });
         }
     }
 }
