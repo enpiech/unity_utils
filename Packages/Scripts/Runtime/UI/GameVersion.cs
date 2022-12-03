@@ -15,13 +15,13 @@ namespace Enpiech.Utils.Runtime.UI
         private string _devPrefix = "GAME VERSION: ";
 #endif
 
-        #if PROD
+#if PROD
         [SerializeField]
         private string _suffix;
 #else
         [SerializeField]
         private string _devSuffix = "_dev";
-        #endif
+#endif
 
         [Header("References")]
         [SerializeField]
