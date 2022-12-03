@@ -9,20 +9,8 @@
     "email": "enpiech@gmail.com",
     "url": "https://github.com/enpiech"
   },
-  "scopedRegistries": [
-    {
-      "name": "NPM Registry",
-      "url": "https://registry.npmjs.org",
-      "scopes": [
-        "com.unity-atoms.unity-atoms-core",
-        "com.unity-atoms.unity-atoms-base-atoms"
-      ]
-    }
-  ],
   "dependencies": {
-    "com.unity.timeline": "1.6.4",
-    "com.unity-atoms.unity-atoms-core": "4.4.5",
-    "com.unity-atoms.unity-atoms-base-atoms": "4.4.5"
+    "com.unity.timeline": "1.6.4"
   },
   "keywords": [
     "enpiech",
